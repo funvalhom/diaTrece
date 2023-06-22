@@ -47,9 +47,16 @@ public class Cociente {
 		float valor1 = numeroDado1();
 		float valor2 = numeroDado2();
 		
-		float cociente = valor1 / valor2;
+		float cociente = (int)valor1 / valor2;
+		float resto = valor1 % valor2;
+		float real = valor1/valor2;
 		
-		System.out.print("El cociente es : " + cociente);
+		
+		System.out.println("El cociente es : " + cociente);
+		
+		System.out.println("El resto es : " + resto);
+		
+		System.out.println("La respuesta real es : " + real);
 		
 		
 		
