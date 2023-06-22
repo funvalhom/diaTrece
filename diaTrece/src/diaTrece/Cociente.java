@@ -20,6 +20,8 @@ public class Cociente {
 				
 		} while (num1 <3 || num1 > 17);
 		
+		dato.close();
+		
 		return num1;
 	}
 	//segundo metodo
@@ -35,6 +37,8 @@ public class Cociente {
 			
 				
 		} while (num2 <3 || num2 > 17);
+		
+		dato.close();
 		
 		return num2;
 	}
