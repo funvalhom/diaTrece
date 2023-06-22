@@ -11,6 +11,8 @@ public class TresEnteros {
 		System.out.print("Por favor ingrese el primer valor: ");
 		valor1 = dato.nextInt();
 		
+		dato.close();
+		
 		return valor1;
 		
 	}
@@ -22,6 +24,8 @@ public class TresEnteros {
 		
 		System.out.print("Por favor ingrese el segundo valor: ");
 		valor2 = dato.nextInt();
+		
+		dato.close();
 		
 		return valor2;
 		
@@ -35,6 +39,8 @@ public class TresEnteros {
 		
 		System.out.print("Por favor ingrese el tercer valor: ");
 		valor3 = dato.nextInt();
+		
+		dato.close();
 		
 		return valor3;
 		
