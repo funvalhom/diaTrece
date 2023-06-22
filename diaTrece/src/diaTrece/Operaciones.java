@@ -50,7 +50,7 @@ public class Operaciones {
     	
         double resultado = -num1 + num2 / num3;
         
-        dato.close();
+   
         
         return resultado;
     }
@@ -75,7 +75,7 @@ public class Operaciones {
     			
         double resultado = (num1 - num2) % num3;
         
-        dato.close();
+        
         
         return resultado;
     }
@@ -102,7 +102,7 @@ public class Operaciones {
     	
         double resultado = (num1 + num2) / (num3 - num4);
         
-        dato.close();
+        
         return resultado;
     }
 
@@ -134,7 +134,7 @@ System.out.println("Los datos que ingrese seguiran este orden de operaciones: n-
     	
         double resultado = num1 - num2 / num3 * num4 + num5 % num6;
         
-        dato.close();
+       
         
         return resultado;
     }
